@@ -1,0 +1,111 @@
+body {
+    background: rgba(194, 145, 12, 0.989);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+}
+header {
+    background:black;
+    background-image: url(images/catsherobanner.JPG);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat ;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: gray 0 0 10px;
+}
+header a {
+    color:rgb(17, 3, 3);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: larger;
+    border: 10px;
+}
+header .mobile {
+    display: none;
+}
+header .logo a{
+    background-image: url("images/catslogo.jpg");
+    border-radius: 30px;
+    background-size: 300px;
+    background-repeat: no-repeat ;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent: -999999999999px;
+    top: -40px;
+    width: 300px;
+    box-shadow: gray 0 0 10px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+/*Header*/
+/* RESPONSIVE RULES*/
+@media screen and (max-width: 692px) {
+header {
+    height: 250px;
+    background-position: 0 -30px;
+}
+header .mobile {
+    display: inline-block;
+}
+header .desktop {
+    display: none;
+}
+}
+
+
+.features {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*auto wrap for us*/
+}
+section {
+    background: white;
+    color: gray;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+}
+.features figure img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    border: 1px solid white;
+}
+.features figure {
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*Features*/
+/* RESPONSIVE RULES*/
+/*@media screen and (max-width:692px) {
+    .features {
+        display: block;
+    }
+}*/
+footer {
+    background: black;
+    color:gray
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 12px;
+}
+/*Footer*/
+
